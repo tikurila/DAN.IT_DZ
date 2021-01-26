@@ -1,0 +1,124 @@
+/* navbar-css */
+
+.page-nav {
+
+}
+
+.page-menu {
+    text-align: center;
+}
+
+.page-menu-item {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;   
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.page-menu-link {
+    text-decoration: none;
+    color: red;
+}
+
+
+.img {
+    width: 100%;
+    height: 789px;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* main */
+
+.import{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 3.299999952316284px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-one{
+    color: #373737;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: center;
+    margin-left: 0 20px 0 20px;
+    margin-bottom: 30px;
+}
+
+.text-two{
+    color: #373737;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: center;
+}
+
+.btn{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1.7999999523162842px;
+    text-align: left;
+    height: 51px;
+    width: 191px;
+    border-radius: 4px;
+    background: red;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.submit{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: gray; */
+  }
+
+
+/* footer */
+
+
+.footer{
+    margin-right: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: left;
+    
+    text-align: right;
+
+}
