@@ -1,0 +1,126 @@
+.tg{
+   margin-left: 12%;
+    border-collapse:collapse;
+    height: 500px;
+    width: 1000px;
+
+    border: 15px solid #3A4965;
+}
+.border-two{
+border: 9px solid #3A4965;
+}
+.tg td{
+ 
+
+    
+    border-style:solid;
+    border-width:0px;
+  padding:14px 20px;
+  
+}
+
+.green{
+    background: #89C331;
+    color: rgb(246, 246, 246);
+    font-family: Arimo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.red{
+    color: rgb(246, 246, 246);
+    font-family: Arimo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    background: #F04A56;
+
+}
+.blue{
+    background: #20807C;
+    color: rgb(246, 246, 246);
+    font-family: Arimo;
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 2px;     */
+    text-align: center;
+}
+
+.grey{
+   
+    background: #E3E3E3;
+
+}
+
+p{
+    font-family: Arimo;
+font-size: 16px;
+font-weight: 400;
+/* line-height: 28px; */
+/* letter-spacing: 0px; */
+text-align: center;
+
+    text-transform:uppercase;
+}
+
+span{
+
+font-size: 40px;
+}
+
+small{
+ 
+    font-size:10px;
+}
+
+button{
+    font-family: Arimo;
+font-size: 16px;
+border-radius: 7px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+color: rgb(255, 255, 255);
+background: #414141;
+height: 44px;
+width: 147px;
+}
+
+
+.button-txt {
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.button-1 {
+  
+    background-color: #484848;
+    border-bottom: 9px solid #404040;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    /* margin: 4px 2px 0px 57px; */
+    cursor: pointer;
+    width: 147px;
+    height: 44px;
+
+}
+
+
+
+
+
+
+
+
