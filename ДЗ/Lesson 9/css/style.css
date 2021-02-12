@@ -1,0 +1,330 @@
+body {
+    background: url(../images/phon.png);
+    width: 100%;
+    margin-left: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+    height: 58px;
+    width: 100%;
+    margin-top: -10px;
+    background: #00000060;
+    /* opacity: 0.4; */
+    /* overflow: hidden; */
+}
+
+.navbar a {
+    float: left;
+    /* color: #f2f2f2;      */
+    text-align: center;
+    /* padding: 20px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.icon {
+    color: lightseagreen;
+    height: 24px;
+    width: 21px;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 17px;
+}
+
+.icon2 {
+    height: 24px;
+    width: 21px;
+    position: absolute;
+    margin-left: 767px;
+    margin-top: 17px;
+}
+
+.icon3 {
+    height: 24px;
+    width: 21px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: 17px;
+}
+.line-for-nav {
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 17px;
+}
+.text-color-nav:hover {
+    color: #2b9e63;
+}
+.text-nav {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 14px;
+    letter-spacing: 0px;
+}
+.firstword:hover {
+    color: rgb(14, 109, 14);
+}
+
+.navbar a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.firstword {
+    margin-left: 79px;
+    margin-top: 18px;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.form {
+    background: white;
+    height: 584px;
+    width: 444px;
+    border-radius: 0px;
+    margin: 40px auto;
+    /* padding: 15px; */
+    box-shadow: 0px 4px 18px 0px #000000 52%;
+    border: 0;
+    display: grid;
+}
+
+.textright {
+    float: left;
+    margin: 31px 0px 70px 0px;
+}
+
+.sign-up {
+    margin-top: 31px;
+    margin-left: 61px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.log-in {
+    margin-left: 230px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    color: #3cb878;
+}
+.log-in:hover {
+    text-decoration: underline;
+}
+
+.height {
+    height: 30px;
+}
+
+button{
+    outline: none;
+}
+
+.label-facebook {
+    width: 30px;
+    position: absolute;
+    padding-top: 70px;
+}
+.label-google {
+    width: 30px;
+    padding-top: 70px;
+    position: absolute;
+}
+.facebook {
+    height: 48px;
+    width: 160px;
+    border: 0px;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 61px;
+    background: #305db8;
+}
+.facebook:hover {
+    background: #022263;
+}
+.google {
+    position: absolute;
+    padding-bottom: -50px;
+    height: 48px;
+    width: 160px;
+    border: 0px;
+    border-radius: 4px;
+
+    margin-left: 235px;
+    margin-right: -300px;
+    background: #df4a32;
+}
+.google:hover {
+    background: #ab1f09;
+}
+.align {
+    margin-right: 100px;
+    margin-bottom: -25px;
+}
+.line-for-button {
+    margin-right: 50px;
+    margin-top: -2px;
+}
+
+.text-button {
+    position: absolute;
+    /* padding-bottom: -130px; */
+    margin-left: -30px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.line-left {
+    width: 152px;
+    margin-left: 67px;
+    top: 6px;
+    border-radius: nullpx;
+}
+.line-right {
+    width: 152px;
+    margin-top: 50px;
+    border-radius: nullpx;
+}
+.text-or {
+    margin-left: -1px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #848484;
+}
+.height-two {
+    margin-top: 20px;
+    /* margin-bottom: -13px; */
+}
+
+.form_label {
+    margin-top: -34px;
+    /* opacity: 0.8; */
+}
+
+input {
+    /* box-shadow: 0px 3px 8px 0px #000000 21%; */
+    outline: none;
+
+    border-radius: 2px;
+    border: 0.2px solid #c2b9b971;
+    margin-left: 60px;
+    height: 46px;
+    width: 300px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    /* font-style: normal; */
+    font-weight: 500;
+
+    /* display: block; */
+    /* letter-spacing: 0px; */
+    padding-left: 30px;
+    /* text-align: center; */
+}
+input:focus {
+    box-shadow: 0px 3px 8px 0px #0000008e;
+}
+.button-chekbox {
+    background-color: rgba(255, 235, 205, 0);
+    border: 0;
+    color: #37c37b;
+    text-decoration: underline;
+    /* color:#37c37b; */
+    font-family: Ubuntu;
+    font-size: 14px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    position: absolute;
+}
+.button-chekbox:focus{
+    color:#086836 ;
+    text-decoration: underline;
+    
+}
+
+.chek {
+    position: absolute;
+    /* padding-bottom: -200px; */
+    height: 20px;
+    width: 20px;
+    margin-left: -339px;
+    margin-top: 63px;
+    border: 1px solid #4646461a;
+    /* margin-top: -660px; */
+    /* border-radius: 0px; */
+}
+.text-chek {
+    font-size: 14px;
+    margin-left: 95px;
+    margin-top: 18px;
+    color: black;
+}
+.underline {
+    position: absolute;
+    margin-top: 68px;
+    margin-left: -222px;
+    width: 150px;
+   
+}
+
+.create-button {
+    height: 46px;
+    width: 324px;
+    border-radius: 4px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #37c37b;
+    margin-left: 60px;
+    border: 0px;
+    margin-top: 12px;
+}
+.color-text {
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -57px;
+    color: white;
+}
+
+.create-button:hover {
+    background: #01813f;
+}
