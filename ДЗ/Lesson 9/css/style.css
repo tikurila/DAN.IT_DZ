@@ -25,29 +25,48 @@ body {
 
 
 .icon {
+    background-repeat: no-repeat;
+    background-image: url(../images/icon1.svg);
     color: lightseagreen;
     height: 24px;
-    width: 21px;
+    width: 24px;
     position: absolute;
     margin-left: 720px;
     margin-top: 17px;
 }
 
 .icon2 {
+    background-repeat: no-repeat;
+    background-image: url(../images/icon2.svg);
     height: 24px;
-    width: 21px;
+    width: 24px;
     position: absolute;
     margin-left: 767px;
     margin-top: 17px;
 }
 
 .icon3 {
+    background-repeat: no-repeat;
+    background-image: url(../images/icon3.svg);
     height: 24px;
-    width: 21px;
+    width: 24px;
     position: absolute;
     margin-left: 814px;
     margin-top: 17px;
 }
+
+.icon2:hover{
+background-image: url(../images/icon_hover1.svg);
+}
+
+.icon:hover{
+    background-image: url(../images/icon_hover2.svg);
+}
+
+.icon3:hover{
+    background-image: url(../images/icon_hover3.svg);
+}
+
 .line-for-nav {
     position: absolute;
     margin-left: 860px;
@@ -169,7 +188,7 @@ button{
 }
 .google {
     position: absolute;
-    padding-bottom: -50px;
+    /* margin-bottom: 350px; */
     height: 48px;
     width: 160px;
     border: 0px;
@@ -184,7 +203,11 @@ button{
 }
 .align {
     margin-right: 100px;
-    margin-bottom: -25px;
+    margin-bottom: -23px;
+}
+.align2 {
+    margin-right: 100px;
+    margin-bottom: -22px;
 }
 .line-for-button {
     margin-right: 50px;
@@ -262,7 +285,7 @@ input:focus {
     background-color: rgba(255, 235, 205, 0);
     border: 0;
     color: #37c37b;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* color:#37c37b; */
     font-family: Ubuntu;
     font-size: 14px;
