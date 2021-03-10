@@ -1,6 +1,6 @@
 let arr = ['hello', 19, 'world', 24, 12, '23', null];
 let newArr = [];
-let type = prompt("Введите тип данных: ");
+let type = prompt("Введите тип данных(string, number, object) ");
 function filterBy(array) {
     for (let i = 0; i < array.length; i++) {
         if (typeof array[i] == type) {
