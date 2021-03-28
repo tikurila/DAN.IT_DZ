@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.centered-content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    margin-top: -168px;
+    display: flex;
+}
+
+.tabstitle {
+    padding: 20px;
+    background-color: #23201D;
+    color: #937341;
+    cursor: pointer;
+}
+
+
+#tabsid .hide {
+    display: none;
+}
+#tabsid .show {
+    display: block;
+}
+
+#tabsid .whiteborder {
+    background-color: #937341;
+    color: #23201D;
+ }
+
+ .text1{
+     margin-top: 20px;
+ }

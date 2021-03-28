@@ -1,0 +1,22 @@
+.color-focused {
+    border: 2px solid rgb(6, 161, 14);
+    /* background-color: rgb(255, 255, 255); */
+    outline: none;
+}
+
+.color-input {
+    background-color: rgb(6, 161, 14);
+}
+
+.del-value {
+    display: none;
+}
+
+.invalid {
+    border-color: red;
+    outline: none;
+}
+
+.text-invalid {
+    color: red;
+}
