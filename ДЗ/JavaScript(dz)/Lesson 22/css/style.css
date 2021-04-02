@@ -1,0 +1,49 @@
+body {
+    margin: 0 0 0 0;
+}
+.image-to-show {
+    width: 100%;
+    height: 622px;
+}
+
+
+#stopclick{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 170px;
+    height: 30px;
+    font-size: 170%;
+    margin-top: -110px;
+  margin-bottom: 70px;
+    margin-left: 1120px;
+    text-decoration: none;
+    background-color: rgba(30, 41, 195, 0.431) ;
+}
+#stopclick:active {
+    color: red;
+   
+  }
+
+
+#goclick{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 170px;
+    height: 30px;
+    font-size: 170%;
+    margin-top: -70px;
+  margin-bottom: 20px;
+    margin-left: 1120px;
+    text-decoration: none;
+    background-color: rgba(175, 14, 148, 0.431) ;
+}
+#goclick:active {
+    color: red;
+   
+  }
+
+.images-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
