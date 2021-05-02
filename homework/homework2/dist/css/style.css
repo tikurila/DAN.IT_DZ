@@ -382,7 +382,7 @@ footer {
     align-items: center;
     position: absolute;
     top: 20px;
-    right: 60px;
+    left: 88%;
     width: 36px;
     height: 26px;
     cursor: pointer;
@@ -410,7 +410,7 @@ footer {
     visibility: hidden;
     width: 180px;
     height: 230px;
-    right: -369px;
+    right: -62%;
     list-style: none;
     background-color: #f5f5f5;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
@@ -494,6 +494,8 @@ footer {
   .image-rails {
     width: 630px;
     height: 390px; }
+  .topnav {
+    right: -64%; }
   .topnav a {
     font-size: 12px; }
   .title-post {
@@ -561,6 +563,8 @@ footer {
     width: 590px;
     height: 380px;
     margin-top: 40px; }
+  .topnav {
+    right: -45%; }
   .title-post {
     font-size: 15px;
     margin-left: 44px; }
@@ -626,6 +630,8 @@ footer {
     width: 560px;
     height: 360px;
     margin-top: 40px; }
+  .topnav {
+    right: -45%; }
   .title-post {
     font-size: 15px;
     margin-left: 44px; }
@@ -691,6 +697,8 @@ footer {
     width: 510px;
     height: 320px;
     margin-top: 40px; }
+  .topnav {
+    right: -58%; }
   .title-post {
     font-size: 14px;
     margin-left: 30px; }
@@ -757,6 +765,8 @@ footer {
     width: 435px;
     height: 290px;
     margin-top: 40px; }
+  .topnav {
+    right: -50%; }
   .title-post {
     font-size: 14px;
     margin-left: 40px; }
@@ -824,6 +834,8 @@ footer {
     width: 372px;
     height: 260px;
     margin-top: 40px; }
+  .topnav {
+    right: -45%; }
   .title-post {
     font-size: 14px;
     margin-left: 40px; }
@@ -918,6 +930,8 @@ footer {
     width: 200px;
     font-size: 12px;
     margin-top: -25px; }
+  .topnav {
+    right: -44%; }
   .post1 {
     margin-left: -55px;
     grid-area: 1 / 1 / 2 / 2; }
@@ -974,7 +988,7 @@ footer {
     margin-top: 40px;
     margin-bottom: -15px; }
   .topnav {
-    right: -90px; }
+    right: -30%; }
   .title-post {
     font-size: 14px;
     margin-left: 25px;
@@ -987,7 +1001,7 @@ footer {
     grid-column-gap: 0px;
     grid-row-gap: 10px; }
   .menu__btn {
-    right: 25px; }
+    left: 81%; }
   .p-posts3 {
     display: none; }
   .p-posts1 {
