@@ -19,6 +19,7 @@ class Music extends Component {
   }
 
   render() {
+    console.log(this.props.data);
     return (
       <div className="container">
         {this.props.data.map((data, key) => (
