@@ -3,7 +3,22 @@
   text-align: center;
   background-color: rgb(204, 204, 204);
 }
-
+.cart_img{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: -22px;
+  margin-left: 430px;
+}
+.home_route{
+  position: absolute;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 700;
+  margin-left: 500px;
+  color: rgb(51, 51, 51);
+}
 .carousel-image{
   height: 420px;
   width: 900px;

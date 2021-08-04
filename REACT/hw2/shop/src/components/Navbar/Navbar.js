@@ -3,7 +3,7 @@ import './Navbar.scss';
 import inst from './img/fb.png';
 import twit from './img/tw.png';
 import youtube from './img/yt.png';
-import cart from './img/cart.png'
+// import cart from './img/cart.png'
 
 export default class Navbar extends Component {
     render() {
@@ -15,7 +15,7 @@ export default class Navbar extends Component {
                <a href="#"><img src={youtube}></img></a> 
                </div>
             <span className="log_reg"><a href="#">Login</a><span>/</span><a href="#">Register</a></span>
-         <a href="#"> <img src={cart} className="cart"></img></a> 
+         {/* <a href="#"> <img src={cart} className="cart"></img></a>  */}
             </div>
         )
     }

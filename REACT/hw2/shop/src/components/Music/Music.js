@@ -19,11 +19,13 @@ class Music extends Component {
   }
 
   render() {
+
+
     console.log(this.props.data);
     return (
       <div className="container">
         {this.props.data.map((data, key) => (
-          <div key={key} className="small">
+          <div key={key} className="small" >
 
             <div className={data.contain_cart}>
 
@@ -41,7 +43,7 @@ class Music extends Component {
 
 
             </div>
-            <button className={data.btn_add} type='button' onClick={this.showModal}>{data.title}</button>
+            <button className={data.btn_add} type='button' onClick={this.showModal} id={data.id}>{data.title}</button>
             <Modal show={this.state.show} handleClose={this.hideModal} >
           <p className="text_mod">Do you want to add this to your cart?</p>
           
