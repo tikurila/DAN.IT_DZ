@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import { useCart } from "react-use-cart";
 
-
 const OneCart = () => {
   const { isEmpty, items, updateItemQuantity, removeItem, emptyCart } =
     useCart();
   if (isEmpty) return <h1 className="text-center">Cart</h1>;
   return (
     <section className="py-4 container">
-     
       <div className="row justify-content-center">
         <div className="col-12">
           <table className="table table-light table-hover m-0">
